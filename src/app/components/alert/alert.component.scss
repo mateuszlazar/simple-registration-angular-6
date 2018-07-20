@@ -1,0 +1,16 @@
+
+
+@import '../../styles/_core.scss';
+
+.alert {
+    margin-bottom: 30px;
+    padding: 20px;
+}
+
+.alert--success {
+    background-color: rgba($green, .2);
+}
+
+.alert--error {
+    background-color: rgba($red, .2);
+}

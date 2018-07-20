@@ -1,0 +1,6 @@
+﻿<h1>Hello {{authenticatedUser.email}}!</h1>
+<p>I am sorry that the capabilities of this application ends with logging out and deleting account.</p>
+<div class="pure-control-group button-group">
+    <button [routerLink]="['/login']" class="pure-button pure-button-primary">Logout</button>
+    <a (click)="deleteUser(authenticatedUser.id)">Delete account</a>
+</div>
