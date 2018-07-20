@@ -1,7 +1,17 @@
-# simple-registration-angular-6
+# Simple Registration System
+👉 Build with Angular 6, RxJs, localStorage and fake backend
 
-Simple Registration and Login Example with Angular 6
+### How to run ⚙
 
-*How to run*
-`npm install`
-`npm start`
+```
+npm install
+npm start
+```
+
+### Preview 🖥
+👉 page reload not working due to issue with router
+
+```
+https://mateuszlazar.github.io/simple-registration-angular-6/
+```
+
